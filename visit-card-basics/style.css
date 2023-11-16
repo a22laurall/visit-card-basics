@@ -1,0 +1,53 @@
+article{
+    background-color: pink;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Agbalumo;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+}
+
+p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: palevioletred;
+}
+header>img{
+    width: 200px;
+    border-radius: 15px;
+    border-color: palevioletred;
+    border-width: 0.3em;
+    border-style:solid;
+}
+footer{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    border-radius: 10px;
+    border-color: white;
+    font-family: inter;
+    color: pink;
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 0.25em;
+    padding: 1em;
+}
+button:hover{
+    border-color: palevioletred;
+    background-color: white;
+    border-style: solid;
+   
+}
